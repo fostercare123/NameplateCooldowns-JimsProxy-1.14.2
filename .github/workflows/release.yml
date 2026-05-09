@@ -1,0 +1,27 @@
+name: Package and Release Addon
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Create Release Package
+        uses: BigWigs/packager@v2
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          files: |
+            CHANGELOG.html
+            embeds.xml
+            LICENSE
+            NameplateCooldowns.lua
+            NameplateCooldowns.toc
+            libs
+            locales
+            media
+            src
