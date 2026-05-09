@@ -1,12 +1,12 @@
 # NameplateCooldowns-JimsProxy-1.14.2
 
-A World of Warcraft addon ported for JimsProxy 1.14.2. It displays enemy cooldowns above their nameplates in real time so you can track abilities, interrupts, PvP trinkets during combat on Twinstars Vanilla 1.12 / Kronos V.
+A World of Warcraft addon ported for JimsProxy 1.14.2. It displays enemy cooldowns above their nameplates in real time so you can track abilities, interrupts, PvP trinkets during combat on Twinstars Vanilla 1.12.1 / Kronos V.
 
 ## About
 
 This addon shows selected cooldowns of enemies above their nameplates. NameplateCooldowns does not contain a single piece of code from Icicle, but was inspired by it.
 
-This fork is specifically maintained for JimsProxy 1.14.2 and the Twinstars Vanilla 1.12 / Kronos V environment.
+This fork is specifically maintained for JimsProxy 1.14.2 and the Twinstars Vanilla 1.12.1 / Kronos V environment.
 
 **Compatible with**: Tidy Plates, PlateBuffs
 
