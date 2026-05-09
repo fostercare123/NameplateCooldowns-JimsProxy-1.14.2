@@ -1,0 +1,22 @@
+# Common editor and OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Archives and packages
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+# Temporary files
+*~
+*.tmp
+*.swp

@@ -1,0 +1,15 @@
+## Interface: 11402
+## Title: NameplateCooldowns |cff33ff99(JimsProxy 1.14.2)|r
+## Notes: Shows the cooldowns of enemy players above their nameplates
+## SavedVariables: NameplateCooldownsAceDB
+## Version: 1.0.0-Fostercare-Vanilla-Fix
+## X-Curse-Project-ID: 66866
+## X-Wago-ID: 0mNwjlGo
+
+embeds.xml
+src\constants.lua
+src\utilities.lua
+locales\localizations.xml
+src\default-spells.lua
+src\database.lua
+NameplateCooldowns.lua
